@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>org.bdshadow</groupId>
+	<artifactId>idea.importer.bundles</artifactId>
+	
+	<packaging>pom</packaging>
+	<name>IdeaImporterBundles</name>
+	
+	<parent>
+		<groupId>org.bdshadow</groupId>
+		<artifactId>idea</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	
+	<modules>
+		<module>idea.importer</module>
+	</modules>
+
+	<properties>
+		<tycho.version>0.24.0</tycho.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<mars-repo.url>http://download.eclipse.org/releases/mars</mars-repo.url>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>0.24.0</version>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+	
+</project>

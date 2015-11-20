@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: idea.importer.ui
+Bundle-SymbolicName: org.bdshadow.idea.importer.ui
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: idea.importer.ui.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
