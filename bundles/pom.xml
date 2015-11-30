@@ -16,6 +16,7 @@
 	
 	<modules>
 		<module>idea.importer</module>
+		<module>idea.importer.ui</module>
 	</modules>
 
 	<properties>
